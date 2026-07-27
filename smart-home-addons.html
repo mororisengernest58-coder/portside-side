@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Home Add-ons — Portside</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a href="index.html" class="logo">
+      <svg class="logo-mark" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="4" stroke="#f4a83b" stroke-width="1.6"/><path d="M8 12h8M12 8v8" stroke="#5fe0a5" stroke-width="1.6" stroke-linecap="round"/></svg>
+      Portside
+    </a>
+    <nav class="nav-links">
+      <a href="index.html#categories">Categories</a>
+      <a href="index.html#featured">Featured</a>
+      <a href="index.html#guides">Guides</a>
+      <a href="index.html#about">About</a>
+    </nav>
+    <a href="#picks" class="nav-cta">Jump to picks</a>
+    <button class="nav-toggle" aria-label="Menu">☰</button>
+  </div>
+</header>
+
+<section class="review-hero wrap">
+  <a href="index.html" class="back-link">← All categories</a>
+  <span class="kicker">Category guide · Updated July 2026</span>
+  <h1>Smart Home Add-ons: what actually matters</h1>
+  <p>The accessory itself is usually simple — a plug, a bulb, a sensor. The thing that determines whether it's still useful in two years is which ecosystem it locks you into. Here's what to check first.</p>
+
+  <div class="spec-callout">
+    <div class="spec-item">
+      <h4>Protocol</h4>
+      <p>Wi-Fi devices are simplest to set up but load your router. Zigbee/Z-Wave devices need a separate hub but handle many devices more reliably. Matter is an emerging standard aiming to unify both.</p>
+    </div>
+    <div class="spec-item">
+      <h4>App ecosystem</h4>
+      <p>Check whether a device works with the voice assistant and app you already use (Alexa, Google Home, Apple Home) before buying — not all devices support all three.</p>
+    </div>
+    <div class="spec-item">
+      <h4>Local vs. cloud control</h4>
+      <p>Some devices stop working entirely if the manufacturer's cloud servers go down or the company shuts down support. Local-control options are more resilient long-term.</p>
+    </div>
+  </div>
+</section>
+
+<section class="review-block wrap">
+  <h2>Wi-Fi vs. Zigbee vs. Matter</h2>
+  <p>Wi-Fi smart plugs and bulbs connect directly to your router — easiest to set up, but every device adds load to your home network, which can slow things down once you have a dozen or more. Zigbee and Z-Wave devices instead connect to a separate hub, which handles a large number of devices more efficiently, at the cost of buying that extra hub. Matter is a newer standard several manufacturers are adopting specifically to let devices work across ecosystems without needing separate hubs for each brand — worth checking for on newer product listings.</p>
+</section>
+
+<section class="review-block wrap">
+  <h2>Check ecosystem compatibility before buying</h2>
+  <p>Not every smart device works with every voice assistant. A plug that only supports its own proprietary app, without Alexa, Google Home, or Apple Home integration, means you're stuck opening a separate app just to turn on a lamp. Check the listing specifically for which ecosystems are supported — "smart" alone doesn't guarantee it talks to the assistant you already use.</p>
+</section>
+
+<section class="review-block wrap">
+  <h2>Local control vs. cloud dependency</h2>
+  <p>Some budget smart devices route every command through the manufacturer's cloud servers, which means the device stops responding if those servers have an outage — or stops working permanently if the company shuts down. Devices that support local control (working over your home network even without internet) are more resilient, though this feature isn't always advertised clearly and may require checking community reviews or forums.</p>
+</section>
+
+<section class="review-block wrap" id="picks" style="border-bottom:none;">
+  <h2>Our current picks</h2>
+  <p>Swap these out for accessories you've personally tested — treat this as a working template.</p>
+
+  <div class="pick-card">
+    <div class="pick-media">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="3"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/></svg>
+    </div>
+    <div class="pick-body">
+      <h4>Wi-Fi Smart Plug, 2-pack</h4>
+      <p class="why">Best for: getting started with no hub required. Works with Alexa, Google Home, and Apple Home.</p>
+    </div>
+    <div class="pick-cta">
+      <div class="pick-price">$15.99</div>
+      <a href="#" class="product-cta">View on Amazon →</a>
+    </div>
+  </div>
+
+  <div class="pick-card">
+    <div class="pick-media">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="9" y="9" width="6" height="6" rx="1"/></svg>
+    </div>
+    <div class="pick-body">
+      <h4>Zigbee Hub with Starter Sensors</h4>
+      <p class="why">Best for: homes planning to add more than a handful of smart devices over time.</p>
+    </div>
+    <div class="pick-cta">
+      <div class="pick-price">$39.99</div>
+      <a href="#" class="product-cta">View on Amazon →</a>
+    </div>
+  </div>
+
+  <div class="pick-card">
+    <div class="pick-media">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="5"/></svg>
+    </div>
+    <div class="pick-body">
+      <h4>Matter-Compatible Smart Bulb, 2-pack</h4>
+      <p class="why">Best for: future-proofing across ecosystems without committing to one brand's hub.</p>
+    </div>
+    <div class="pick-cta">
+      <div class="pick-price">$24.99</div>
+      <a href="#" class="product-cta">View on Amazon →</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="disclosure">
+      <strong>Portside</strong> is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. As an Amazon Associate, we earn from qualifying purchases.
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portside — Electronics Accessories, Sorted</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <div class="logo">
+      <svg class="logo-mark" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="4" stroke="#f4a83b" stroke-width="1.6"/><path d="M8 12h8M12 8v8" stroke="#5fe0a5" stroke-width="1.6" stroke-linecap="round"/></svg>
+      Portside
+    </div>
+    <nav class="nav-links">
+      <a href="#categories">Categories</a>
+      <a href="#featured">Featured</a>
+      <a href="#guides">Guides</a>
+      <a href="#about">About</a>
+    </nav>
+    <a href="#featured" class="nav-cta">Shop picks</a>
+    <button class="nav-toggle" aria-label="Menu">☰</button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">Independently tested accessories</span>
+      <h1>The right accessory for <em>what you already own.</em></h1>
+      <p>Portside reviews cables, cases, power banks, and desk gear so you don't have to gamble on a five-star listing. Every pick links straight to the exact Amazon listing we tested.</p>
+      <div class="hero-actions">
+        <a href="#featured" class="btn-primary">Browse featured picks</a>
+        <a href="#categories" class="btn-secondary">See all categories</a>
+      </div>
+    </div>
+    <div class="schematic">
+      <svg viewBox="0 0 400 400" fill="none">
+        <!-- center device -->
+        <rect x="150" y="140" width="100" height="160" rx="14" stroke="#333944" stroke-width="1.5" fill="#1d2027"/>
+        <rect x="168" y="158" width="64" height="112" rx="4" stroke="#333944" stroke-width="1"/>
+        <circle cx="200" cy="285" r="6" stroke="#5fe0a5" stroke-width="1.5"/>
+        <!-- dashed connectors -->
+        <path d="M150 180 L60 100" stroke="#333944" stroke-dasharray="3 4"/>
+        <path d="M150 240 L50 260" stroke="#333944" stroke-dasharray="3 4"/>
+        <path d="M250 180 L350 110" stroke="#333944" stroke-dasharray="3 4"/>
+        <path d="M250 240 L360 270" stroke="#333944" stroke-dasharray="3 4"/>
+        <!-- nodes -->
+        <g>
+          <circle cx="60" cy="100" r="4" fill="#f4a83b"/>
+          <text x="30" y="80" class="node-title">Case</text>
+          <text x="14" y="96" class="node-label">DROP-TESTED</text>
+        </g>
+        <g>
+          <circle cx="50" cy="260" r="4" fill="#f4a83b"/>
+          <text x="14" y="296" class="node-title">Cable</text>
+          <text x="4" y="312" class="node-label">USB-C · 6FT</text>
+        </g>
+        <g>
+          <circle cx="350" cy="110" r="4" fill="#f4a83b"/>
+          <text x="300" y="90" class="node-title">Power</text>
+          <text x="290" y="106" class="node-label">20K MAH</text>
+        </g>
+        <g>
+          <circle cx="360" cy="270" r="4" fill="#f4a83b"/>
+          <text x="300" y="296" class="node-title">Stand</text>
+          <text x="292" y="312" class="node-label">ALUMINUM</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="categories">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="section-tag">Browse</span>
+        <h2>Six categories, no dead ends</h2>
+      </div>
+      <p>Each category page is built around one job the accessory does — protect, charge, connect, or organize.</p>
+    </div>
+    <div class="cat-grid">
+
+      <a href="cases-screen-protectors.html" class="cat-card" style="display:block;">
+        <svg class="cat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="7" y="2" width="10" height="20" rx="2"/><line x1="11" y1="18" x2="13" y2="18"/></svg>
+        <h3>Cases &amp; Screen Protectors</h3>
+        <p>Drop ratings, material breakdowns, and fit notes by phone model.</p>
+        <span class="cat-count">42 reviewed</span>
+      </a>
+
+      <a href="cables-chargers.html" class="cat-card" style="display:block;">
+        <svg class="cat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 12h4l2-3 3 6 2-3h5"/><rect x="2" y="6" width="20" height="12" rx="2"/></svg>
+        <h3>Cables &amp; Wall Chargers</h3>
+        <p>Charge speeds, braided vs. silicone durability, and multi-port picks.</p>
+        <span class="cat-count">31 reviewed</span>
+      </a>
+
+      <a href="power-banks.html" class="cat-card" style="display:block;">
+        <svg class="cat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="6" y="3" width="12" height="18" rx="2"/><line x1="9" y1="7" x2="15" y2="7"/><path d="M11 10l-1 3h4l-1 3"/></svg>
+        <h3>Power Banks</h3>
+        <p>Real-world capacity tests, not just the number printed on the box.</p>
+        <span class="cat-count">18 reviewed</span>
+      </a>
+
+      <a href="laptop-stands-sleeves.html" class="cat-card" style="display:block;">
+        <svg class="cat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="12" rx="1"/><path d="M8 20h8M12 16v4"/></svg>
+        <h3>Laptop Stands &amp; Sleeves</h3>
+        <p>Desk setups, portability trade-offs, and cooling performance.</p>
+        <span class="cat-count">24 reviewed</span>
+      </a>
+
+      <a href="earbud-headphone-gear.html" class="cat-card" style="display:block;">
+        <svg class="cat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 6a6 6 0 016 6c0 3-2 4-2 7H8c0-3-2-4-2-7a6 6 0 016-6z"/><line x1="9" y1="21" x2="15" y2="21"/></svg>
+        <h3>Earbud &amp; Headphone Gear</h3>
+        <p>Cases, ear tips, and Bluetooth adapters that actually fit.</p>
+        <span class="cat-count">15 reviewed</span>
+      </a>
+
+      <a href="smart-home-addons.html" class="cat-card" style="display:block;">
+        <svg class="cat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/></svg>
+        <h3>Smart Home Add-ons</h3>
+        <p>Smart plugs and small automation gear that pairs in under a minute.</p>
+        <span class="cat-count">12 reviewed</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<section class="section" id="featured" style="background:var(--surface);border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="section-tag">This week</span>
+        <h2>Featured picks</h2>
+      </div>
+      <p>Swap these placeholder cards for your own reviewed products — each links out to the exact Amazon listing.</p>
+    </div>
+    <div class="product-grid">
+
+      <div class="product-card">
+        <div class="product-media">
+          <span class="tag">Cases</span>
+          <svg class="placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="7" y="2" width="10" height="20" rx="2"/></svg>
+        </div>
+        <div class="product-body">
+          <h4>Armor-grade case, clear back</h4>
+          <div class="product-meta"><span class="stars">★★★★☆</span><span>4.4 · 2,180 ratings</span></div>
+          <div class="product-price">$14.99</div>
+          <a href="#" class="product-cta">View on Amazon →</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-media">
+          <span class="tag">Cables</span>
+          <svg class="placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M4 12h4l2-3 3 6 2-3h5"/></svg>
+        </div>
+        <div class="product-body">
+          <h4>Braided USB-C cable, 6ft, 2-pack</h4>
+          <div class="product-meta"><span class="stars">★★★★★</span><span>4.7 · 9,410 ratings</span></div>
+          <div class="product-price">$10.49</div>
+          <a href="#" class="product-cta">View on Amazon →</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-media">
+          <span class="tag">Power</span>
+          <svg class="placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="6" y="3" width="12" height="18" rx="2"/></svg>
+        </div>
+        <div class="product-body">
+          <h4>20,000mAh power bank, dual USB-C</h4>
+          <div class="product-meta"><span class="stars">★★★★☆</span><span>4.5 · 5,032 ratings</span></div>
+          <div class="product-price">$27.99</div>
+          <a href="#" class="product-cta">View on Amazon →</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-media">
+          <span class="tag">Desk</span>
+          <svg class="placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="3" y="4" width="18" height="12" rx="1"/></svg>
+        </div>
+        <div class="product-body">
+          <h4>Aluminum laptop stand, adjustable</h4>
+          <div class="product-meta"><span class="stars">★★★★☆</span><span>4.6 · 3,760 ratings</span></div>
+          <div class="product-price">$22.00</div>
+          <a href="#" class="product-cta">View on Amazon →</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-media">
+          <span class="tag">Audio</span>
+          <svg class="placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 6a6 6 0 016 6c0 3-2 4-2 7H8c0-3-2-4-2-7a6 6 0 016-6z"/></svg>
+        </div>
+        <div class="product-body">
+          <h4>Silicone ear tips, 3-size set</h4>
+          <div class="product-meta"><span class="stars">★★★★☆</span><span>4.3 · 1,290 ratings</span></div>
+          <div class="product-price">$8.99</div>
+          <a href="#" class="product-cta">View on Amazon →</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-media">
+          <span class="tag">Smart home</span>
+          <svg class="placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="3"/></svg>
+        </div>
+        <div class="product-body">
+          <h4>Wi-Fi smart plug, 2-pack</h4>
+          <div class="product-meta"><span class="stars">★★★★☆</span><span>4.4 · 6,905 ratings</span></div>
+          <div class="product-price">$15.99</div>
+          <a href="#" class="product-cta">View on Amazon →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section" id="guides">
+  <div class="wrap">
+    <div class="guide">
+      <div>
+        <h3>Buying guides, not just lists</h3>
+        <p>Every category has a plain-language guide covering what actually matters — charge wattage, drop-test ratings, material trade-offs — before you get to the product cards.</p>
+      </div>
+      <a href="#categories" class="btn-primary">Read the guides</a>
+    </div>
+  </div>
+</section>
+
+<footer id="about">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h5>Portside</h5>
+        <p style="color:var(--text-muted);font-size:13.5px;max-width:280px;">Independent accessory reviews for phones, laptops, and everything that plugs into them.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Categories</h5>
+        <a href="#categories">Cases &amp; Protectors</a>
+        <a href="cables-chargers.html">Cables &amp; Chargers</a>
+        <a href="#categories">Power Banks</a>
+        <a href="#categories">Laptop Gear</a>
+      </div>
+      <div class="footer-col">
+        <h5>Site</h5>
+        <a href="#guides">Buying Guides</a>
+        <a href="#about">About</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h5>Legal</h5>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="disclosure.html">Affiliate Disclosure</a>
+        <a href="#">Terms of Use</a>
+      </div>
+    </div>
+    <div class="disclosure">
+      <strong>Portside</strong> is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. As an Amazon Associate, we earn from qualifying purchases. Prices and availability are accurate as of the date shown and are subject to change.
+    </div>
+  </div>
+</footer>
+<!-- AI shopping assistant -->
+<button class="chat-fab" id="chatFab" aria-label="Ask the accessory assistant">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H8l-4 4V6a2 2 0 012-2h13a2 2 0 012 2v9z"/></svg>
+</button>
+
+<div class="chat-panel" id="chatPanel">
+  <div class="chat-head">
+    <div class="chat-head-title"><span class="chat-dot"></span>Accessory Assistant</div>
+    <button class="chat-close" id="chatClose" aria-label="Close">✕</button>
+  </div>
+  <div class="chat-sub">Ask about compatibility, what to look for, or how two picks compare.</div>
+  <div class="chat-messages" id="chatMessages">
+    <div class="msg assistant">Hi — I can help you pick between accessories on this site, or explain what specs actually matter. What are you shopping for?</div>
+  </div>
+  <form class="chat-form" id="chatForm">
+    <textarea class="chat-input" id="chatInput" rows="1" placeholder="e.g. Which power bank is best for a 13&quot; laptop?"></textarea>
+    <button type="submit" class="chat-send" id="chatSend" aria-label="Send">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+    </button>
+  </form>
+</div>
+
+<script>
+(function(){
+  const fab = document.getElementById('chatFab');
+  const panel = document.getElementById('chatPanel');
+  const closeBtn = document.getElementById('chatClose');
+  const form = document.getElementById('chatForm');
+  const input = document.getElementById('chatInput');
+  const sendBtn = document.getElementById('chatSend');
+  const messagesEl = document.getElementById('chatMessages');
+
+  const SYSTEM_PROMPT = `You are the shopping assistant embedded on Portside, a site that reviews electronics accessories (phone cases & screen protectors, cables & wall chargers, power banks, laptop stands & sleeves, earbud/headphone gear, and smart home add-ons).
+Help visitors decide what to buy by asking about their device and use case when needed, explaining what specs actually matter (charge wattage, drop ratings, material trade-offs, capacity vs. weight, etc.), and comparing categories of product in plain language.
+Do not invent specific product names, prices, or review counts you don't actually have — speak in general, accurate buying-advice terms, and remind the user to confirm current price and specs on the actual Amazon listing before buying. Keep answers under 120 words unless the user asks for more detail.`;
+
+  let history = [];
+
+  function addMessage(role, text){
+    const div = document.createElement('div');
+    div.className = 'msg ' + role;
+    div.textContent = text;
+    messagesEl.appendChild(div);
+    messagesEl.scrollTop = messagesEl.scrollHeight;
+    return div;
+  }
+
+  fab.addEventListener('click', () => panel.classList.toggle('open'));
+  closeBtn.addEventListener('click', () => panel.classList.remove('open'));
+
+  input.addEventListener('input', () => {
+    input.style.height = 'auto';
+    input.style.height = Math.min(input.scrollHeight, 100) + 'px';
+  });
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const text = input.value.trim();
+    if(!text) return;
+
+    addMessage('user', text);
+    history.push({ role: 'user', content: text });
+    input.value = '';
+    input.style.height = 'auto';
+    sendBtn.disabled = true;
+
+    const loadingEl = addMessage('assistant loading', 'Thinking…');
+
+    try{
+      const response = await fetch('/api/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          system: SYSTEM_PROMPT,
+          messages: history
+        })
+      });
+      const data = await response.json();
+      const reply = data.reply || "Sorry, I couldn't generate a response just now.";
+      loadingEl.remove();
+      addMessage('assistant', reply);
+      history.push({ role: 'assistant', content: reply });
+    }catch(err){
+      loadingEl.remove();
+      addMessage('assistant', "Something went wrong reaching the assistant. Please try again.");
+      console.error('Assistant error:', err);
+    }finally{
+      sendBtn.disabled = false;
+    }
+  });
+
+  form.addEventListener('keydown', (e) => {
+    if(e.target === input && e.key === 'Enter' && !e.shiftKey){
+      e.preventDefault();
+      form.requestSubmit();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>
